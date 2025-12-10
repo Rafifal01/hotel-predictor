@@ -3,7 +3,7 @@
 Ringkasan singkat proyek Streamlit untuk memprediksi pembatalan booking hotel dan memberikan rekomendasi tindakan.
 
 Files utama:
-- [(Final_Project_Hotel_Demand_JCDSAH_0208.ipynb)] - File utama untuk mengolah data
+- [Final_Project_Hotel_Demand_JCDSAH_0208.ipynb] - File utama untuk mengolah data
 - [app.py](app.py) — Aplikasi Streamlit (GUI & logika prediksi)
 - [helper.py](helper.py) — Skrip pembantu untuk mengekstrak nama fitur dari model
 - [requirements.txt](requirements.txt) — Dependencies
@@ -74,7 +74,6 @@ Alur utama
    - Single Prediction — form input manual
    - Batch Prediction — upload CSV & tombol "Predict All"
    - Model Info — metrik & feature importance
-   - About — dokumentasi proyek
 
 Input field mapping (Single Prediction)
 - hotel, arrival_date, lead_time, adults, children, babies, stays_in_weekend_nights, stays_in_week_nights, meal, country, market_segment, distribution_channel, reserved_room_type, assigned_room_type, deposit_type, customer_type, adr, total_of_special_requests, previous_cancellations, previous_bookings_not_canceled, is_repeated_guest, booking_changes, required_car_parking_spaces
